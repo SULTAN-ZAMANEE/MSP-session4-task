@@ -1,0 +1,363 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+html{
+  background-color: #000;
+}
+/* ================================= */
+/* helper classes */
+.orange{
+  color: #F25123;
+}
+.box{
+  width:100%;
+  height: 100%;
+}
+.PO-absolute{
+  position: absolute;
+}
+ul li{
+  list-style: none;
+}
+.opacity{
+  opacity: 0.5;
+}
+/* ================================== */
+
+/* start first section style */
+#wrapper{
+  width: 85%;
+  min-height:100vh;
+  height: auto;
+  margin: auto;
+  top: 0;
+  padding-top: 60px;
+}
+section{
+  width: 100%;
+  height: 100vh;
+}
+section:last-child{
+  height: auto;
+}
+.landing-page{
+  justify-content: center;
+  align-items: center;
+}
+/* start navegation style */
+nav {
+ display: flex;
+ position: fixed;
+ justify-content: space-between;
+ align-items: center;
+ height: 90px;
+ width: 85%;
+ top: 0;
+ z-index: 1000;
+ margin: auto;
+}
+nav .page-nav-logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+.font{
+  font-family: cursive;
+}
+nav .page-nav-logo img{
+  width: 45px;
+}
+nav .page-nav-content a:hover{
+  background-color: #f25123;
+}
+.page-nav-content{
+  display: flexbox;
+}
+a{
+  text-decoration: none;
+  padding: 7px;
+}
+.page-nav-socilmadia{
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+/* end navegation style */
+.laning-page-content{
+  width: 100%;
+  height: 490px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-page-title{
+  width: 33%;
+  height: 400px;
+  display: inline-block;
+}
+.landing-page-title > h1{
+ font-size: 60px;
+}
+.landing-page-title *:not(.bi){
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.landing-page-title button{
+  width: 100px;
+  height: 40px;
+  color: #eee;
+  border: none;
+  border-radius: 20px;
+  background-color: #F25123;
+}
+.landing-page-IMAGE{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+.landing-page-IMAGE img{
+  position: absolute;
+}
+.circle{
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  display: inline-block;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+  border: 40px solid #F25123;
+}
+.flowrs{
+  display: inline-block;
+  width: 30%;
+  height: 400px;
+  position: relative;
+}
+.bi1{
+  top: 10px;
+  left: 60px;
+  font-size: 100px;
+}
+.bi2{
+  top: 170px;
+  left: 200px;
+  font-size: 60px;
+}
+.bi3{
+  bottom: 50px;
+  left: 140px;
+  font-size: 30px;
+}
+.cource{
+  width: 600px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F25123;
+  border-radius: 20px;
+}
+.cource div{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, #242424 0%, #000000 100%);
+  background: linear-gradient(180deg, #2D2D2D 0%, #000000 100%);
+}
+/* end first section style */
+
+ /* start second section style */
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#leftContent{
+  width: 750px;
+  height: 500px;
+  padding-right: 20px;
+}
+#leftContent *:not(h6){
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#leftContent > h1{
+  font-size: 60px;
+}
+#leftContent div p{
+  display: inline;
+  margin-right: 15px;
+}
+#leftContent button{
+  width: 100px;
+  height: 40px;
+  color: #eee;
+  border: none;
+  border-radius: 20px;
+  background-color: #F25123;
+}
+#rightContent{
+  width: 400px;
+  height: 500px;
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3,160px);
+  grid-template-columns:3;
+  grid-gap: 15px;
+}
+.image1{
+  grid-area: 1/1/2/4;
+  border-radius: 30px;
+}
+.image2{
+  grid-area: 2/1/3/3;
+  border-radius: 30px;
+}
+.image3{
+  grid-area: 2/3/2/4;
+  border-radius: 30px;
+}
+.image4{
+  grid-area: 3/1/3/2;
+  border-radius: 30px;
+}
+.image5{
+  grid-area: 3/2/3/4;
+  border-radius: 30px;
+}
+ /* end second section style */
+
+ /* end theerd section style */
+ 
+.Question{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page3-contener{
+  width: 100%;
+  height: 230px;
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: repeat(4,254.11px);
+  grid-gap: 20px;
+}
+.page3-contener div *{
+  margin-top: 10px;
+}
+.page3-contener > div{
+  padding-left: 15px;
+  border-radius: 10px;
+}
+.page3-contener div div .bi{
+  font-size: 30px;
+}
+.page3-contener .box1{
+  grid-area: 1/1/1/2;
+  background-color: #2D2D2D;
+}
+.page3-contener .box2{
+  grid-area: 1/2/1/3;
+  background-color: #2D2D2D;
+}
+.page3-contener .box3{
+  grid-area: 1/3/1/4;
+  background-color: #2D2D2D;
+}
+.page3-contener .box4{
+  grid-area: 1/4/1/5;
+  background-color: #2D2D2D;
+}
+/* end theerd section style */
+
+/* start Footer section style */
+ 
+#footer-wrapper{
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+  position: relative;
+  background-image: url("../image/image3.jpg");
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-color: #A9feab;
+}
+#footer-wrapper .footer{
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3.5fr 2.25fr 2.25fr 3fr;
+  grid-template-rows: 1;
+  grid-gap: 10px;
+}
+.footer *{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Description1{
+  padding-right: 10px;
+  grid-area: 1/1/2/2;
+}
+.footer .Description1 .footer-nav-logo{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.footer .Description1 .footer-nav-logo img{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.footer .Description1 > *{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+p .bi{
+  font-size: 23px;
+  padding-left: 8px;
+}
+.Description2{
+  grid-area: 1/2/2/3;
+}
+.Description3{
+  grid-area: 1/3/2/4;
+}
+.Description4{
+  grid-area: 1/4/2/5;
+}
+hr{
+  background-color: #F25123;
+  height: 2px;
+  border: none;
+}
+.Description4 div:not(:first-child){
+  display: flex;
+  margin-top: 10px;
+}
+.Description4 div:not(:first-child) *{
+  margin-right: 10px;
+}
+/* end Footer section style */
